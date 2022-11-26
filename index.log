@@ -1,0 +1,69 @@
+index.html:30 Live reload enabled.
+favicon.ico:1          Failed to load resource: the server responded with a status of 404 (Not Found)
+var gulliver = "->1 - Roteiros para *São Paulo* A Terra da Garoa! Fundada em 25 de janeiro de 1554 a cidade tem hoje cerca de 12 milhões de habitantes e é considerada o centro financeiro do Brasil e aqui vão 3 dicas de roteiros obrigatórios para aqueles que passam pela capital paulista #Roteiro A | Região: Avenida Paulista MASP; Parque Trianon; Rua Augusta #Roteiro B | Região: Centro Catedral da Sé; Pátio do Colégio; Rua Augusta #Roteiro C | Região: Vila Madalena Beco do Batman; Feirinha da Benedito Calixto; Livraria da Vila ->2 - Roteiros para *Las Vegas* Viva Las Vegas!A cidade mais populosa e mais densamente povoada do estado de Nevada, Las Vegas foi fundada em 1905 e é considerada uma cidade, oficialmente, desde 1911 e conta com mais de meio milhão de habitantes. Venha conhecer a capital dos jogos de azar! #Roteiro A | Região: Las Vegas Boulevard South Fonte do Bellagio; Principais Cassinos; Madame Tussauds #Roteiro B | Região: Downtown; Fremont; Las Vegas Art Museum; Museu nacional do Crime Organizado; #Roteiro C | Região: Las Vegas Boulevard North Outlet Premium North; Stratosphere; Apple Fashion Show ->3 - Roteiros para *Moscou* Privet! A capital Russa fica situada às margens do Rio Moscou e apesar de ser a cidade mais cosmopolita da Rússia, conta com grande resguardo de sua história soviética #Roteiro A | Região: Praça Vermelha Museu Histórico do Estado; Catedral de São Basílico; Mausoléu de Lênin #Roteiro B | Região: Centro Teatro Bolshoi; Monumento a Karl Marx; Rio Moscou #Roteiro C | Região: Obras pela cidade Metrô de Moscou; As Sete Irmãs; Moscow Leningradsky Railway Station";
+
+// Cidades selecionadas
+
+var posicaoSP = gulliver.search("São Paulo");
+var posicaoLV = gulliver.search("Las Vegas");
+var posicaoMosc = gulliver.search("Moscou");
+console.log(posicaoSP);
+console.log(posicaoLV);
+console.log(posicaoMosc);
+VM64:8 21
+VM64:9 536
+VM64:10 1130
+undefined
+var cidade1 = gulliver.substring(21,30);
+var cidade2 = gulliver.substring(536,545);
+var cidade3 = gulliver.substring(1130,1136);
+console.log(cidade1);
+console.log(cidade2);
+console.log(cidade3);
+VM68:4 São Paulo
+VM68:5 Las Vegas
+VM68:6 Moscou
+undefined
+
+// Lista de Roteiro A
+
+var listaDeRoteiros = gulliver.split("#");
+console.log(listaDeRoteiros);
+
+VM125:5 (10) ['->1 - Roteiros para *São Paulo* A Terra da Garoa! …os para aqueles que passam pela capital paulista ', 'Roteiro A | Região: Avenida Paulista MASP; Parque Trianon; Rua Augusta ', 'Roteiro B | Região: Centro Catedral da Sé; Pátio do Colégio; Rua Augusta ', 'Roteiro C | Região: Vila Madalena Beco do Batman; …tes. Venha conhecer a capital dos jogos de azar! ', 'Roteiro A | Região: Las Vegas Boulevard South Font…o Bellagio; Principais Cassinos; Madame Tussauds ', 'Roteiro B | Região: Downtown; Fremont; Las Vegas Art Museum; Museu nacional do Crime Organizado; ', 'Roteiro C | Região: Las Vegas Boulevard North Outl…a com grande resguardo de sua história soviética ', 'Roteiro A | Região: Praça Vermelha Museu Histórico…ado; Catedral de São Basílico; Mausoléu de Lênin ', 'Roteiro B | Região: Centro Teatro Bolshoi; Monumento a Karl Marx; Rio Moscou ', 'Roteiro C | Região: Obras pela cidade Metrô de Mos…s Sete Irmãs; Moscow Leningradsky Railway Station']0: "->1 - Roteiros para *São Paulo* A Terra da Garoa! Fundada em 25 de janeiro de 1554 a cidade tem hoje cerca de 12 milhões de habitantes e é considerada o centro financeiro do Brasil e aqui vão 3 dicas de roteiros obrigatórios para aqueles que passam pela capital paulista "1: "Roteiro A | Região: Avenida Paulista MASP; Parque Trianon; Rua Augusta "2: "Roteiro B | Região: Centro Catedral da Sé; Pátio do Colégio; Rua Augusta "3: "Roteiro C | Região: Vila Madalena Beco do Batman; Feirinha da Benedito Calixto; Livraria da Vila ->2 - Roteiros para *Las Vegas* Viva Las Vegas!A cidade mais populosa e mais densamente povoada do estado de Nevada, Las Vegas foi fundada em 1905 e é considerada uma cidade, oficialmente, desde 1911 e conta com mais de meio milhão de habitantes. Venha conhecer a capital dos jogos de azar! "4: "Roteiro A | Região: Las Vegas Boulevard South Fonte do Bellagio; Principais Cassinos; Madame Tussauds "5: "Roteiro B | Região: Downtown; Fremont; Las Vegas Art Museum; Museu nacional do Crime Organizado; "6: "Roteiro C | Região: Las Vegas Boulevard North Outlet Premium North; Stratosphere; Apple Fashion Show ->3 - Roteiros para *Moscou* Privet! A capital Russa fica situada às margens do Rio Moscou e apesar de ser a cidade mais cosmopolita da Rússia, conta com grande resguardo de sua história soviética "7: "Roteiro A | Região: Praça Vermelha Museu Histórico do Estado; Catedral de São Basílico; Mausoléu de Lênin "8: "Roteiro B | Região: Centro Teatro Bolshoi; Monumento a Karl Marx; Rio Moscou "9: "Roteiro C | Região: Obras pela cidade Metrô de Moscou; As Sete Irmãs; Moscow Leningradsky Railway Station"length: 10[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+undefined
+console.log(listaDeRoteiros[1]);
+console.log(listaDeRoteiros[4]);
+console.log(listaDeRoteiros[7]);
+VM129:1 Roteiro A | Região: Avenida Paulista MASP; Parque Trianon; Rua Augusta 
+VM129:2 Roteiro A | Região: Las Vegas Boulevard South Fonte do Bellagio; Principais Cassinos; Madame Tussauds 
+VM129:3 Roteiro A | Região: Praça Vermelha Museu Histórico do Estado; Catedral de São Basílico; Mausoléu de Lênin 
+undefined
+
+// Número de locais em cada roteiro A 
+
+var locaisSP = listaDeRoteiros[1].split(";");
+var locaisLV = listaDeRoteiros[4].split(";");
+var locaisMosc = listaDeRoteiros[7].split(";");
+console.log(locaisSP);
+console.log(locaisLV);
+console.log(locaisMosc);
+
+VM213:7 (3) ['Roteiro A | Região: Avenida Paulista MASP', ' Parque Trianon', ' Rua Augusta ']0: "Roteiro A | Região: Avenida Paulista MASP"1: " Parque Trianon"2: " Rua Augusta "length: 3[[Prototype]]: Array(0)
+VM213:8 (3) ['Roteiro A | Região: Las Vegas Boulevard South Fonte do Bellagio', ' Principais Cassinos', ' Madame Tussauds ']0: "Roteiro A | Região: Las Vegas Boulevard South Fonte do Bellagio"1: " Principais Cassinos"2: " Madame Tussauds "length: 3[[Prototype]]: Array(0)
+VM213:9 (3) ['Roteiro A | Região: Praça Vermelha Museu Histórico do Estado', ' Catedral de São Basílico', ' Mausoléu de Lênin ']0: "Roteiro A | Região: Praça Vermelha Museu Histórico do Estado"1: " Catedral de São Basílico"2: " Mausoléu de Lênin "length: 3[[Prototype]]: Array(0)
+undefined
+
+// Pontos Turísticos no Cantro de São Paulo
+
+var pontosCentro = listaDeRoteiros[2];
+console.log(pontosCentro);
+VM342:5 Roteiro B | Região: Centro Catedral da Sé; Pátio do Colégio; Rua Augusta 
+undefined
+
+// Pontos turísticos em Downtown
+
+var pontosDowntown = listaDeRoteiros[5];
+console.log(pontosDowntown);
+VM567:5 Roteiro B | Região: Downtown; Fremont; Las Vegas Art Museum; Museu nacional do Crime Organizado; 
+undefined
